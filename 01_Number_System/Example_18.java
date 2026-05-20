@@ -1,4 +1,4 @@
-//WAP TO DEFINE METHOD TO COUNT HOW MANY DIGIT PRESENT
+//WAP print Product of each digit in anumber
 public class Example_18 {
     public static void main(String[]args) {
         int n=2345;
