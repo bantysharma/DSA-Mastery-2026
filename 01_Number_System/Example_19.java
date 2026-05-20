@@ -1,8 +1,8 @@
 //wap to defineMethod in a number
 
-public class Example_19 {
+class Example_19 {
     public static void main(String[] args) {
-        int n = 2345;
+        int n = 234;
         System.out.println(ProductofDigit(n));
     }
 
