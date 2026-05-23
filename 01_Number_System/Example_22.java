@@ -1,5 +1,12 @@
 public class Example_22 {
-    public static void main(String[]args){
+
+    static void Message(){
         System.out.println("hello world");
+    }
+    public static void main(String[]args){
+        Example_22.Message();
+
+
+
     }
 }
