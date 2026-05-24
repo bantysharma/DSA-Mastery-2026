@@ -2,8 +2,8 @@
 
 public class Example_22 {
     public static void main(String[] args) {
-        int n = 234;
-        System.out.println((n));
+        int n = 246810;
+        System.out.println(SumOfDigit(n));
     }
 
     public static int SumOfDigit(int n) {
