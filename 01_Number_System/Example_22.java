@@ -1,12 +1,19 @@
+//wao ti define method of to print the sum of evendigit present in a number;
+
 public class Example_22 {
-
-    static void Message(){
-        System.out.println("hello world");
+    public static void main(String[] args) {
+        int n = 234;
+        System.out.println((n));
     }
-    public static void main(String[]args){
-        Example_22.Message();
 
-
-
+    public static int SumOfDigit(int n) {
+        int sum = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            if (digit % 2 == 0)
+                sum = sum + digit;
+            n = n / 10;
+        }
+        return sum;
     }
 }
